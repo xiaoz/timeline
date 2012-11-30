@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-##Sumorio
+﻿##Sumorio
 
 ### 介绍
 sumorio是用nodejs开发的社区系统，借鉴了[nodeclub][1]的一些通用代码(注册/登录/session处理等)。目前版本为0.2.1。
@@ -10,7 +9,7 @@ sumorio是用nodejs开发的社区系统，借鉴了[nodeclub][1]的一些通用
  - 修改主目录下的config.js文件，修改其中的mysql及其它config为自己机器的配置(手动创建需要的路径，如*_path)
  - 安装package.json里列出的库
  - 在主目录下执行node app.js启动程序，访问http://ip:port即可
- - 默认初始化的用户名：sumory 密码：123456
+ - 
 
 ### History
 
@@ -34,15 +33,8 @@ sumorio是用nodejs开发的社区系统，借鉴了[nodeclub][1]的一些通用
 
 ### Todo
 
+展示 app
 * Feed
 * 收藏
 * 分页
 
-
-  [1]: https://github.com/muyuan/nodeclub/
-=======
-timeline
-========
-
-timeline
->>>>>>> 329027996e53b1e721c045264a0814aac391a905
