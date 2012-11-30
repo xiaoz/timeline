@@ -1,0 +1,39 @@
+
+
+<div class="main-body">
+
+
+	<div class='panel'>
+		<div class='header'>
+			<span class='col_fade'><i class="icon-time"></i> 最新文章</span>
+		</div>
+		<% if(new_articles && new_articles.length > 0){ %> 
+		<%-partial('article/article_item_2',{collection:new_articles,as:'article'}) %>
+		<%}else{}%>
+	</div>
+	
+	
+	
+	<div class='panel'>
+		<div class='header'>
+			<span class='col_fade'><i class="icon-eye-open"></i> 最多访问</span>
+		</div>
+		<% if(most_visit_articles && most_visit_articles.length > 0){ %> 
+		<%-partial('article/article_item_2',{collection:most_visit_articles,as:'article'}) %>
+		<%}else{}%>
+	</div>
+	
+	
+	
+	<div class='panel'>
+		<div class='header'>
+			<span class='col_fade'><i class="icon-comment"></i> 最多回复</span>
+		</div>
+		<% if(most_reply_articles && most_reply_articles.length > 0){ %> 
+		<%-partial('article/article_item_2',{collection:most_reply_articles,as:'article'}) %>
+		<%}else{}%>
+	</div>
+	
+</div>
+
+<%-partial('side')%>
