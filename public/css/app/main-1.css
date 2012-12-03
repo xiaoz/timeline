@@ -415,7 +415,7 @@ display:block;
   behavior: url(http://moon.cnodejs.net:10080/PIE.htc); 
 }
 .loading {
-background-image: url("../images/loading.gif");
+background-image: url("http://images.cnodejs.net:10080/images/loading.gif");
 background-position: 0 0;
 width: 60px;
 height: 60px;
@@ -437,7 +437,7 @@ margin-bottom: 50px;
 	position   : absolute;
 	width      : 150px;
 	height     : 190px;
-	background : url("../images/bg_loadmore_shine.png") 0px 0px no-repeat;
+	background : url("http://images.cnodejs.net:10080/images/bg_loadmore_shine.png") 0px 0px no-repeat;
 	top        : -40px;
 	left       : 109px;
 	z-index    : 99;
@@ -462,14 +462,14 @@ margin-bottom: 50px;
 #contact .wrapper .load-more .label.load {
 	text-align : right;
 	padding    : 0 5px 0 0;
-    background:url(../images/sprite_general.png)  -160px 0px no-repeat 
+    background:url(http://images.cnodejs.net:10080/images/sprite_general.png)  -160px 0px no-repeat 
 }
 #contact .wrapper .load-more:hover .label.load { background-position: -170px 0px }
 #contact .wrapper .load-more .label.more {
 	left       : 150px;
 	text-align : left;
 	padding    : 0 0 0 5px;
-    background:url(../images/sprite_general.png)  -410px 0px no-repeat 
+    background:url(http://images.cnodejs.net:10080/images/sprite_general.png)  -410px 0px no-repeat 
 }
 #contact .wrapper .load-more:hover .label.more { 
     background-position: -400px 0px

@@ -7,18 +7,18 @@ b{ color:#ff0000;}
 
 .buyer-name{ color:#666; text-align:left}
 .buyer-name img{ vertical-align:middle}
-.arrow-left {position: absolute;left: 1px; left:1px\9;top:228px;visibility: visible; background:url(../images/A-left.png) no-repeat;width:80px; height:64px; z-index:100; cursor:pointer; opacity:0.0 }
-.arrow-right {position: absolute;left: 581px;left:581px\9;top: 228px;visibility: visible; background:url(../images/arrow-right.png) no-repeat; width:80px; height:64px; z-index:100;cursor:pointer;opacity:0.0}
-.close {position: absolute;left: 1083px;top: 205px;visibility: visible; background:url(../images/close.jpg) no-repeat; width:18px; height:17px;}
+.arrow-left {position: absolute;left: 1px; left:1px\9;top:228px;visibility: visible; background:url(http://images.cnodejs.net:10080/images/A-left.png) no-repeat;width:80px; height:64px; z-index:100; cursor:pointer; opacity:0.0 }
+.arrow-right {position: absolute;left: 581px;left:581px\9;top: 228px;visibility: visible; background:url(http://images.cnodejs.net:10080/images/arrow-right.png) no-repeat; width:80px; height:64px; z-index:100;cursor:pointer;opacity:0.0}
+.close {position: absolute;left: 1083px;top: 205px;visibility: visible; background:url(http://images.cnodejs.net:10080/images/close.jpg) no-repeat; width:18px; height:17px;}
 .disable{ display:none}
 /* 首页真人秀 */	
 #reality-show{ height:600px;width:748px;border:1px solid #DFDFDF; overflow:hidden; }
-	.title{background:url(../images/fsh-title-bg.jpg) repeat-x; width:748px; height:29px; border-bottom:1px solid #CC0000;}
+	.title{background:url(http://images.cnodejs.net:10080/images/fsh-title-bg.jpg) repeat-x; width:748px; height:29px; border-bottom:1px solid #CC0000;}
 		h1{ color:#CC0000; font-size:14px;line-height:30px;_line-height:28px}
 		h1 b{ margin-left:12px;}
     #reality-show .list{  overflow:hidden; position: absolute; width:748px; height:568px;}
-	#reality-show .list ul li{ float:left; margin:8px 0 0 0px;_margin:12px 0 0 6px; background:url(../images/fsh-zr-12.jpg) 114px no-repeat; line-height:20px;}
-		#reality-show .list-baobei{ float:left; text-align:center; width:123px; margin-top:0px;background:url(../images/fsh-zr-2.jpg) center no-repeat; height:150px }
+	#reality-show .list ul li{ float:left; margin:8px 0 0 0px;_margin:12px 0 0 6px; background:url(http://images.cnodejs.net:10080/images/fsh-zr-12.jpg) 114px no-repeat; line-height:20px;}
+		#reality-show .list-baobei{ float:left; text-align:center; width:123px; margin-top:0px;background:url(http://images.cnodejs.net:10080/images/fsh-zr-2.jpg) center no-repeat; height:150px }
 			#reality-show .list-baobei span{display:block; width:103px; height:16px; overflow:hidden; text-align:center; margin-left:auto; margin-right:auto; margin-top:3px;}
 			#reality-show .list-baobei img{ margin-top:20px;}
 			 #reality-show .list-baobei span b{ color:grey;font-weight: bold;}
@@ -29,7 +29,7 @@ b{ color:#ff0000;}
 
 /* 更多真人秀 */
 .reality-show-content dd{ float: left}
-.reality-show-content{background:#FCFCFC url(../images/reality-show-content1.jpg) 223px 10px no-repeat;height:568px;overflow:hidden; border-left:1px solid #DFDFDF; }
+.reality-show-content{background:#FCFCFC url(http://images.cnodejs.net:10080/images/reality-show-content1.jpg) 223px 10px no-repeat;height:568px;overflow:hidden; border-left:1px solid #DFDFDF; }
 	.reality-show-content-baobei{ width:233px; text-align:left;}
 	.reality-show-content-baobei .backto{cursor:pointer}
 	.reality-show-content-baobei li{ width:223px; line-height:20px; text-align:center; border:1px  solid #DFDFDF; background:#F6F6F6; width:223px; border-left:0; border-bottom:0; padding:16px 0; }

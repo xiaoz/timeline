@@ -1,19 +1,26 @@
-<section id="contact" class="nopager" data-sectionname="contact" style="background: url('/images/bg.jpg') 0px 0px repeat;">
+
+			    
+ <section id="contact" class="nopager" data-sectionname="contact" style="background: url('http://images.cnodejs.net:10080/images/bg.jpg') 0px 0px repeat;">
           <div class="wrapper clearfix" id="contact-content"  >
                  		
           		
           
         </div>		
 </section>
+			  
+	
+	 
+</div>
+
 <script type="text/template" id = "J_Temple">
 <div class="element   {{country}} {{current}}" data="{{index}}" id="J_Elm_{{index}}">
   <p class="number">{{country}}</p>
  	 <div class="symbol">
-  		<img class="smallImg" style="width:60px;height:60px" src="{{smallImg}}" />
+  		<img class="smallImg" style="width:60px;height:60px" src="http://images.cnodejs.net:10080/{{smallImg}}" />
  	</div>
  	<div class="bbb ks-clear" >
 		<div>
-		<img class="largeImg"  src="{{largeImg}}"  style="max-height:258px" />&nbsp;&nbsp;&nbsp;&nbsp;{{detail}}
+		<img class="largeImg"  src="http://images.cnodejs.net:10080/{{largeImg}}"  style="max-height:258px" />&nbsp;&nbsp;&nbsp;&nbsp;{{detail}}
 		</div>
 	</div>
 <h2 class="name">{{name}}</h2>
@@ -58,7 +65,7 @@ KISSY.ready(function(S) {
 				var str = '';
 				KISSY.use('template',function(){
 	
-					str +=  '<div class="element corner-stamp2"  ><image src="/images/logo.png"/></div>'; 
+					str +=  '<div class="element corner-stamp2"  ><image src="http://images.cnodejs.net:10080/images/logo.png"/></div>'; 
 					var temp= KISSY.Template(DOM.html(DOM.get('#J_Temple')));
 					if(pageId!=4){
 						var rnum = parseInt(Math.random()*12+1);

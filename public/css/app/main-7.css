@@ -2,7 +2,7 @@
 /* General Demo Style */
 body{
 	font-family: 'Open Sans Condensed','Arial Narrow', serif;
-	background: #ddd url(../images/paigu/fabric_plaid.png) repeat top left;
+	background: #ddd url(http://images.cnodejs.net:10080/images/paigu/fabric_plaid.png) repeat top left;
 	font-weight: 400;
 	font-size: 15px;
 	color: #333;
@@ -303,11 +303,11 @@ a.jms-link{
      behavior: url(http://abing.wuseyu.cn:10080/PIE.htc);  
 }
 .jms-arrows span.jms-arrows-prev{
-	background: #fff url(../images/paigu/arrow_left.png) no-repeat 50% 50%;
+	background: #fff url(http://images.cnodejs.net:10080/images/paigu/arrow_left.png) no-repeat 50% 50%;
 	left: -10px;
 }
 .jms-arrows span.jms-arrows-next{
-	background: #fff url(../images/paigu/arrow_right.png) no-repeat 50% 50%;
+	background: #fff url(http://images.cnodejs.net:10080/images/paigu/arrow_right.png) no-repeat 50% 50%;
 	right: -10px;
 }
 /* Not supported style */
